@@ -5,14 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chad-Cinema |For Chads by the Chad</title>
-
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta name="description"
+    content="Discover and stream your favorite movies and TV shows with Chadcinema - an open source content search and watch website. Enjoy unlimited access to a vast library of content for free.">
+    <meta property="og:site_name" content="Chadcinema" />
+  <meta property="og:url" content="https://chadcinema.42web.io" />
+  <meta itemprop="image" content="https://i.postimg.cc/VkYjcQc5/image.png" />
+  <meta property="og:image" content="https://i.postimg.cc/VkK1KMR5/image.png" />
+  <meta property="og:image:secure_url"
+        content="https://i.postimg.cc/VkYjcQc5/image.png" />
     
 
     <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <!-- custom css file link -->
-    <link rel="stylesheet" href="https://link.storjshare.io/jv7palwyklkryx2odaao3ihfkb4q/css%2Fstyle.css?wrap=0">
+    <link rel="stylesheet" href="https://link.storjshare.io/s/jvljyqajrb6mc7jgzxjwfvbw42ia/css%2Fstyle2.css?wrap=0">
 
 
 </head>
@@ -22,9 +31,12 @@
     <header>
         <a href="index.html" class="logo"><i class="fas fa-infinity"></i>Chad-Cinema</a>
         <ul class="navigation">
-            <li><a href="movies.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="series-page1.html">Series</a></li>
+            <li><a href="v2.html">v2</a></li>
             <li><a href="cartoons.html">Cartoons</a></li>
             <li><a href="anime.html">Anime</a></li> 
+            <li><a href="about.html">About</a></li> 
         </ul>
         <div class="icons">
         <a href="search.html" class="fas fa-search"></a>
@@ -34,134 +46,133 @@
 
 <!-- home section start -->
 
+<!-- home section start -->
 <section class="home" id="home">
-
-    <div class="swiper home-slider">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-                <div class="box " style="background: url(https://link.storjshare.io/s/jv3dues72lyo5o3hbgpo6qthawzq/demo-bucket/insidious%20red%20door.jpg?wrap=0) no-repeat;">
-                    <div class="content">
-                        <h3 style="color:red;">Insidious: The Red Door 2023</h3>
-                        <p style="color:white;">To put their demons to rest once and for all, Josh Lambert and a college-aged Dalton Lambert must go deeper into The Further than ever before, facing their family’s dark past and a host of new and more horrifying terrors that lurk behind the red door.</p>
-                        <a href="new/insidious-red.html" class="btn">Watch Now</a>
-                         <a class="btn" onclick="toggleVideo();">Watch Trailer</a>
-                    </div>
-                </div>
-            </div>
-          <div class="trailer">
-        <iframe src="https://filemoon.sx/e/rzsupnhiueg8/INSIDIOUS_THE_RED_DOOR_Official_Trailer__HD_" width="600" height="300" allowfullscreen></iframe>
-        <img decoding="async" src="https://bafybeidcvmjq57qxzimc5jtx5lqxv55wu6q6736hqwm7vuns6cogwm27t4.ipfs.w3s.link/ipfs/bafybeidcvmjq57qxzimc5jtx5lqxv55wu6q6736hqwm7vuns6cogwm27t4/close.png" class="close" onclick="toggleVideo();">
+    <div class="hero">
+      <video id="background-video" loop autoplay muted preload="auto" poster="https://i.postimg.cc/5y2KbB7v/dunki.jpg">
+        <source src="https://pixeldrain.com/api/file/x2bqngug" type="video/mp4">
+        <!-- Include additional video sources for compatibility if needed -->
+        Your browser does not support the video tag.
+      </video>
+      <div class="hero-content">
+        <h1>Dunki (2023)</h1>
+        <p>Four friends from a sleepy little village in Punjab share a common dream: to go to England. Their problem is that they have neither the visa nor the ticket. A soldier alights from a train one day, and their lives change.</p>
+        <a href="new3/dunki.html" class="btn">Watch Now</a>
+      </div>
     </div>
-
-            
-            
-            
-
-        </div>
-
-    </div>
-
-</section>
+  </section>
 
 
 <!-- anime ---------------------------------------------------------------- section start -->
 <section class="newReleases">
-        <h1 class="heading"><a href ="movies/genres/new.html" style="color:red;">RECENTLY ADDED</a></h1>
+        <h1 class="heading"><a href ="search.html" style="color:red;">RECENTLY ADDED</a></h1>
         <div class="movieListContainer">
             <div class="arrows"><i class="fa-solid fa-chevron-right"></i></div>
             <div class="movielistContainerWrapper">
-
-               
-                
                 <div class="wrapperItem">
-                    <img src="https://bafybeiafmuz4ho3av6jrg6zfxakx2zqnuzrohrdocs2nvvxkdnmwewpgby.ipfs.w3s.link/ipfs/bafybeiafmuz4ho3av6jrg6zfxakx2zqnuzrohrdocs2nvvxkdnmwewpgby/barbie-poster-" class="wrapperItemImg" alt="">
+                    <img src="https://i.postimg.cc/mgsMgGRL/its-okay-to-not-be-okay.jpg" class="wrapperItemImg" alt="">
+                    <p class="wrapperItemName">Its Okay to Not Be Okay</p>
+                    <p class="wrapperItemDesc"></p>
+                    <a href="series/its-okay-to-not-be-okay.html" class="btn">Watch Now</a>
+                </div>
+                <div class="wrapperItem">
+                    <img src="https://i.postimg.cc/J4MWCG6Y/exorcist-beliver.jpg" class="wrapperItemImg" alt="">
+                    <p class="wrapperItemName">The Exorcist Believer 2023</p>
+                    <p class="wrapperItemDesc">Since the death of his wife 12 years ago, Victor Fielding has raised their daughter, Angela on his own. But when Angela and her friend Katherine disappear in the woods, only to return three days later with no memory of what happened to them, it unleashes a chain of events that will force Victor to confront the nadir of evil....</p>
+                    <a href="new3/exorcist-beliver.html" class="btn">Watch Now</a>
+                </div>
+              
+                <div class="wrapperItem">
+                    <img src="https://i.postimg.cc/8z2YMrcQ/kerela-story.jpg" class="wrapperItemImg" alt="">
+                    <p class="wrapperItemName">The Kerala Story 2023</p>
+                    <p class="wrapperItemDesc">A converted muslim women Fatima Ba narrates her ordeal of how she once wanted to become a nurse but was abducted from her home and manipulated by religious vanguards and turned into an ISIS terrorist and landed in Afghanistan jail.</p>
+                    <a href="new3/kerela-story.html" class="btn">Watch Now</a>
+                </div>
+
+                <div class="wrapperItem">
+                    <img src="https://i.postimg.cc/sDR1vVW6/the-piper-2023.jpg" class="wrapperItemImg" alt="">
+                    <p class="wrapperItemName">The Piper 2023</p>
+                    <p class="wrapperItemDesc">A young composer is given the opportunity of a lifetime when she is tasked with finishing her late mentor’s concerto. But she soon discovers that playing the music summons deadly consequences, leading her to uncover the disturbing origins of the melody and the evil force it has awakened: the Pied Piper.</p>
+                    <a href="new3/the-piper.html" class="btn">Watch Now</a>
+                </div>
+                <div class="wrapperItem">
+                    <img src="https://i.postimg.cc/mZ9YJ299/Kho-Gaye-Hum-Kahan.jpg" class="wrapperItemImg" alt="">
+                    <p class="wrapperItemName">Kho Gaye Hum Kaha (2023)</p>
+                    <p class="wrapperItemDesc">Three best friends juggle life as 20-somethings in Mumbai, where romance, ambition and heartbreak collide with the addictive draw of social media.</p>
+                    <a href="new3/kho-gaye-hum-kaha.html" class="btn">Watch Now</a>
+                </div>
+                <div class="wrapperItem">
+                    <img src="https://i.postimg.cc/63W9JS90/barbie-poster.jpg" class="wrapperItemImg" alt="">
                     <p class="wrapperItemName">Barbie (2023)</p>
                     <p class="wrapperItemDesc">Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.</p>
                     <a href="movies/holly/2023/barbie.html" class="btn">Watch Now</a>
                 </div>
+      
+                    <div class="wrapperItem">
+                        <img src="https://i.postimg.cc/zD2TjP93/rocky-rani.jpg" class="wrapperItemImg" alt="">
+                        <p class="wrapperItemName">Rocky Aur Rani Kii Prem Kahaani 2023</p>
+                        <p class="wrapperItemDesc"></p>
+                        <a href="new2/rocky-rani.html" class="btn">Watch Now</a>
+                    </div>
 
-
+                 
                 <div class="wrapperItem">
-                    <img src="https://bafybeiah6fcnfkmtlknmoflcynmbknpfop4hirzhxb3p7lgv742qqe7ztq.ipfs.w3s.link/ipfs/bafybeiah6fcnfkmtlknmoflcynmbknpfop4hirzhxb3p7lgv742qqe7ztq/oppenhimer" class="wrapperItemImg" alt="">
-                    <p class="wrapperItemName">Oppenheimer (2023)</p>
-                    <p class="wrapperItemDesc"> The story of J. Robert Oppenheimer’s role in the development of the atomic bomb during World War II. A feature documentary exploring how one man’s brilliance, hubris and relentless drive changed the nature of war forever...</p>
-                    <a href="movies/holly/2023/oppenhimer.html" class="btn">Watch Now</a>
+                    <img src="https://i.postimg.cc/zB7JGRyz/Watch-Aakhri-Sach.jpg" class="wrapperItemImg" alt="">
+                    <p class="wrapperItemName">Aakhri Sach S01 2023 </p>
+                    <p class="wrapperItemDesc"></p>
+                    <a href="series/aakhri-sach.html" class="btn">Watch Now</a>
+                </div>
+                <div class="wrapperItem">
+                    <img src="https://i.postimg.cc/sfNf4b4L/bro.jpg" class="wrapperItemImg" alt="">
+                    <p class="wrapperItemName">Bro 2023</p>
+                    <p class="wrapperItemDesc"></p>
+                    <a href="new2/bro.html" class="btn">Watch Now</a>
                 </div>
 
+           
+        
                 <div class="wrapperItem">
-                    <img src="https://link.storjshare.io/s/jv3dues72lyo5o3hbgpo6qthawzq/demo-bucket/the-deepest-bretah.jpg?wrap=0" class="wrapperItemImg" alt="">
-                    <p class="wrapperItemName">The Deepest Breath (2023)</p>
-                    <p class="wrapperItemDesc">A champion freediver and expert safety diver seemed destined for one another despite the different paths they took to meet at the pinnacle of the freediving world. A look at the thrilling rewards — and inescapable risks...</p>
-                    <a href="movies/holly/2023/the-deepest-breath.html" class="btn">Watch Now</a>
+                    <img src="https://i.ibb.co/Hz8KGFb/neeyat-movie-review.jpg" class="wrapperItemImg" alt="">
+                    <p class="wrapperItemName">Neeyat (2023)</p>
+                    <p class="wrapperItemDesc"></p>
+                    <a href="new/neeyat.html" class="btn">Watch Now</a>
                 </div>
 
+        <div class="wrapperItem">
+            <img src="https://i.ibb.co/7g3HQ6y/20th-century-girl.jpg" class="wrapperItemImg" alt="">
+            <p class="wrapperItemName">20th Century Girl (2022)</p>
+            <p class="wrapperItemDesc"></p>
+            <a href="new/20th-century-girl.html" class="btn">Watch Now</a>
+        </div>
+        <div class="wrapperItem">
+            <img src="https://i.ibb.co/yRS55dB/Are-You-Afraid-Dark-Curse-Shadows.jpg" class="wrapperItemImg" alt="">
+            <p class="wrapperItemName">Are You Afraid of the Dark?</p>
+            <p class="wrapperItemDesc"></p>
+            <a href="new2/afraidofdark.html" class="btn">Watch Now</a>
+        </div>
+        <div class="wrapperItem">
+            <img src="https://i.ibb.co/m4NRkBB/Red-White-Royal-Blue-Poster-2.jpg" class="wrapperItemImg" alt="">
+            <p class="wrapperItemName">Red, White and Royal Blue (2023)</p>
+            <p class="wrapperItemDesc"></p>
+            <a href="new/Red-whiteand-royal-blue.html" class="btn">Watch Now</a>
+        </div>
+        
+        <div class="wrapperItem">
+            <img src="https://i.ibb.co/jMBtpCT/OMG-2-3.jpg" class="wrapperItemImg" alt="">
+            <p class="wrapperItemName">OMG - 2 (2023) HDTS</p>
+            <p class="wrapperItemDesc"></p>
+            <a href="new/omg2.html" class="btn">Watch Now</a>
+        </div>
                 <div class="wrapperItem">
-                    <img src="https://bafybeigrz2bfo27lxi2s3ptfxhpq7raecltn2sbmp2zhtbckjzomc7tspe.ipfs.w3s.link/ipfs/bafybeigrz2bfo27lxi2s3ptfxhpq7raecltn2sbmp2zhtbckjzomc7tspe/bawaal.jpg" class="wrapperItemImg" alt="">
-                    <p class="wrapperItemName">Bawaal (2023)</p>
-                    <p class="wrapperItemDesc"> Ajju bhaiya, a history teacher from a small town with a fake public image embarks on a World War II trail along with his wife Nisha, only to discover war within him...</p>
-                    <a href="movies/bolly/2023/bawaal.html" class="btn">Watch Now</a>
-                </div>
+                    <img src="https://i.ibb.co/XFsST8k/Maaveeran-movie-Posters.jpg" class="wrapperItemImg" alt="">
+                    <p class="wrapperItemName">Maaveeran</p>
+                    <p class="wrapperItemDesc"></p>
+                    <a href="new/maaveran.html" class="btn">Watch Now</a>
+                </div>   
+                
 
-                <div class="wrapperItem">
-                    <img src="https://bafybeihrcrtbrctmlr665z2o7gymwb57u2fnrlbsiks65aw4ihrr663ycm.ipfs.w3s.link/ipfs/bafybeihrcrtbrctmlr665z2o7gymwb57u2fnrlbsiks65aw4ihrr663ycm/trial%20period.jpg" class="wrapperItemImg" alt="">
-                    <p class="wrapperItemName">Trial Period (2023)</p>
-                    <p class="wrapperItemDesc">A working single mother’s world turns upside down when her inquisitive son demands a new father on a 30-day ‘Trial Period’.</p>
-                    <a href="movies/bolly/2023/trial-period.html" class="btn">Watch Now</a>
-                </div>
-
-<div class="wrapperItem">
-                <img src="https://bafybeibaclgw5qmjm7l7wmnp5kzwlyoqahsst3erxxlneagkntlhlzgp6y.ipfs.w3s.link/ipfs/bafybeibaclgw5qmjm7l7wmnp5kzwlyoqahsst3erxxlneagkntlhlzgp6y/gangnam-zombie" class="wrapperItemImg" alt="">
-                <p class="wrapperItemName">Gangnam Zombie (2023)</p>
-                <p class="wrapperItemDesc">Citizens from upscale Gangnam in Seoul start experiencing unusual and terrifying symptoms, devolving into inhuman creatures, leaving only a few survivors with the possibility to make it out alive.</p>
-                <a href="movies/korean/2023/gangnam-zombie.html" class="btn">Watch Now</a>
-            </div>
-
-
-
-<div class="wrapperItem">
-                <img src="https://bafybeign46tji42ljwwme4llx3krb4lpnkfzsdjwfvmfhmlm3dn2z5qibq.ipfs.w3s.link/ipfs/bafybeign46tji42ljwwme4llx3krb4lpnkfzsdjwfvmfhmlm3dn2z5qibq/mission-impossible-dead" class="wrapperItemImg" alt="">
-                <p class="wrapperItemName">Mission: Impossible – Dead Reckoning</p>
-                <p class="wrapperItemDesc">Ethan Hunt and his IMF team embark on their most dangerous mission yet: To track down a terrifying new weapon that threatens all of humanity before it falls into the wrong hands...</p>
-                <a href="movies/holly/2023/mission-impossible.html" class="btn">Watch Now</a>
-            </div>
-
-
-
-
-<div class="wrapperItem">
-                <img src="https://bafybeifesrvbxkynivodxo26i33k6ovvh5qakhwa62fzbwzj5rnbn4nnae.ipfs.w3s.link/ipfs/bafybeifesrvbxkynivodxo26i33k6ovvh5qakhwa62fzbwzj5rnbn4nnae/janaki-jaane" class="wrapperItemImg" alt="">
-                <p class="wrapperItemName">Janaki Jaane (2023)</p>
-                <p class="wrapperItemDesc">Struggling with panic disorder, Janaki is ecstatic when Unni Mukundan proposes to marry her. Things go south when Janaki’s fears land her in serious trouble.</p>
-                <a href="movies/south/2023/janaki-jaane.html" class="btn">Watch Now</a>
-            </div>
-
-
-<div class="wrapperItem">
-                <img src="https://bafybeidunq3ojkcahg7brfhqxyqyotfsw7xwetofdkoehttq7vn3pziami.ipfs.w3s.link/ipfs/bafybeidunq3ojkcahg7brfhqxyqyotfsw7xwetofdkoehttq7vn3pziami/lust-stories2" class="wrapperItemImg" alt="">
-                <p class="wrapperItemName">Lust Stories 2 (2023)</p>
-                <p class="wrapperItemDesc">Four eminent Indian directors explore sex, desire and love through short films in this sequel to 2018’s Emmy-nominated ‘Lust Stories’.</p>
-                <a href="movies/bolly/2023/lust-stories2.html" class="btn">Watch Now</a>
-            </div>
-
-
-
-<div class="wrapperItem">
-                <img src="https://bafybeidrzuinek4skhwyr7b6auwvudl2tn6unhme73udrshxknw2rd56va.ipfs.w3s.link/ipfs/bafybeidrzuinek4skhwyr7b6auwvudl2tn6unhme73udrshxknw2rd56va/extraction-2" class="wrapperItemImg" alt="">
-                <p class="wrapperItemName">Extraction 2 (2023)</p>
-                <p class="wrapperItemDesc">Tasked with extracting a family who is at the mercy of a Georgian gangster, Tyler Rake infiltrates one of the world’s deadliest prisons in order to save them....</p>
-                <a href="movies/holly/2023/extraction2.html" class="btn">Watch Now</a>
-            </div>
-
-<div class="wrapperItem">
-                <img src="https://bafybeifegn64ulsyf46c4hpyngoym7rdddiigjnflbdrhjkkrwtukirlfa.ipfs.w3s.link/ipfs/bafybeifegn64ulsyf46c4hpyngoym7rdddiigjnflbdrhjkkrwtukirlfa/ammonite2020" class="wrapperItemImg" alt="">
-                <p class="wrapperItemName">Ammonite (2020)</p>
-                <p class="wrapperItemDesc">In 1840s England, palaeontologist Mary Anning and a young woman sent by her husband to convalesce by the sea develop an intense relationship...</p>
-                <a href="movies/holly/2020/ammonite.html" class="btn">Watch Now</a>
-            </div>
-
-
+               
+                
 
   
             </div>
@@ -174,8 +185,8 @@
 
 <!-- anime ----------------------------------------------------------------------section start -->
 
-  
-           
+
+
  <section class="newReleases">
         <h1 class="heading"><a href ="new.html" style="color:red;">New Bollywood Releases</a></h1>
         <div class="movieListContainer">
@@ -183,8 +194,37 @@
             <div class="movielistContainerWrapper">
 
                 <div class="wrapperItem">
+                    <img src="https://i.postimg.cc/TPhh6gBB/slaar.jpg" class="wrapperItemImg" alt="">
+                    <p class="wrapperItemName">Salaar</p>
+                    <p class="wrapperItemDesc"></p>
+                    <a href="new3/saalr.html" class="btn">Watch Now</a>
+                </div>
+        
+        <div class="wrapperItem">
+            <img src="https://i.ibb.co/VvqDz3K/gadar-2.jpg" class="wrapperItemImg" alt="">
+            <p class="wrapperItemName">Gadar 2</p>
+            <p class="wrapperItemDesc"></p>
+            <a href="new/gadar2.html" class="btn">Watch Now</a>
+        </div>
+
+        <div class="wrapperItem">
+            <img src="https://i.postimg.cc/QxRgLMkS/sambahadur.jpg" class="wrapperItemImg" alt="">
+            <p class="wrapperItemName">Sam Bahadur 2023</p>
+            <p class="wrapperItemDesc">Based on the life of Sam Manekshaw, who was the Chief of the Army Staff of the Indian Army during the Indo-Pakistani War of 1971, and the first Indian Army officer to be promoted to the rank of field marshal.</p>
+            <a href="new3/sambahadur.html" class="btn">Watch Now</a>
+        </div>
+
+        <div class="wrapperItem">
+            <img src="https://i.postimg.cc/hG0V71F3/animal.jpg" class="wrapperItemImg" alt="">
+            <p class="wrapperItemName">Animal 2023</p>
+            <p class="wrapperItemDesc"></p>
+            <a href="new3/animal.html" class="btn">Watch Now</a>
+        </div>
+
+        
+                <div class="wrapperItem">
                     <img src="https://link.storjshare.io/s/jv3dues72lyo5o3hbgpo6qthawzq/demo-bucket/spy2023.jpg?wrap=0" class="wrapperItemImg" alt="">
-                    <p class="wrapperItemName"></p>
+                    <p class="wrapperItemName">Spy 2023</p>
                     <p class="wrapperItemDesc"></p>
                     <a href="new/spy.html" class="btn">Watch Now</a>
                 </div>
@@ -239,123 +279,168 @@
                 <a href="movies/bolly/2022/kacchey-limbu.html" class="btn">Watch Now</a>
             </div>
 
-
-
-
-
-<div class="wrapperItem">
-                <img src="https://bafybeif6lwnm5yudqewk6udujbdvpjub5ca2z5d3trm4dvep5vgj5gbpny.ipfs.w3s.link/ipfs/bafybeif6lwnm5yudqewk6udujbdvpjub5ca2z5d3trm4dvep5vgj5gbpny/Dasara-Movie-" class="wrapperItemImg" alt="">
-                <p class="wrapperItemName">Dasara (2023)</p>
-                <p class="wrapperItemDesc">In 1990s, Set in small village Veerlapally, Dharani, Vennela, and Suri are childhood friends. Dharani loves Vennela, but she has Suri in her mind. Knowing Suri’s interest in Vennela...</p>
-                <a href="movies/south/2023/dasara.html" class="btn">Watch Now</a>
-            </div>
-
-
-<div class="wrapperItem">
-                <img src="https://bafybeifhaywolpqorjlilj2czorcazy47l6afm7sjwtcmkmlk6trzbshie.ipfs.w3s.link/ipfs/bafybeifhaywolpqorjlilj2czorcazy47l6afm7sjwtcmkmlk6trzbshie/kathal" class="wrapperItemImg" alt="">
-                <p class="wrapperItemName">Kathal: A Jackfruit Mystery (2023)</p>
-                <p class="wrapperItemDesc">When two prized jackfruits disappear from a politician’s garden, a spirited cop’s investigation takes an unexpected turn as she digs for the truth.</p>
-                <a href="movies/bolly/2023/kathal.html" class="btn">Watch Now</a>
-            </div>
-
-
-
                 <div class="wrapperItem">
                 <img src="https://bafybeictoc72hctsq7krencnefq5atlrh7lsewa4n4z3nntlzfziorjcme.ipfs.w3s.link/ipfs/bafybeictoc72hctsq7krencnefq5atlrh7lsewa4n4z3nntlzfziorjcme/selfiee-thumb" class="wrapperItemImg" alt="">
                 <p class="wrapperItemName">Selfiee</p>
                 <p class="wrapperItemDesc">A police officer and his son just want to take a selfie with their idol, superstar Vijay Kumar. An opportunity arises through the issuance of a driving license but a misunderstanding throws a spanner into the works and what ensues is the battle of egos between the fan and the star. What happens when the biggest fan becomes the biggest hurdle in the superstar’s life?</p>
                 <a href="movies/bolly/2023/selfiee.html" class="btn">Watch Now</a>
             </div>
+         
 
-
-
-
-
-              <div class="wrapperItem">
-                <img src="https://bafybeiaekzsgiw5n27ue4vwsuq7rycr2qw3enwcaonlh4hkzppc6az7sba.ipfs.w3s.link/ipfs/bafybeiaekzsgiw5n27ue4vwsuq7rycr2qw3enwcaonlh4hkzppc6az7sba/ravanasura-thumb" class="wrapperItemImg" alt="">
-                <p class="wrapperItemName">RAVANASURA (2023)</p>
-                <p class="wrapperItemDesc">An investigating officer is assigned to investigate few brutal murders, where he zeroes in on Ravindra, a criminal lawyer who has penchant for secretly committing murders as the mastermind behind the crime.</p>
-                <a href="movies/south/2023/ravanasura.html" class="btn">Watch Now</a>
-            </div>
-
-
-
-
-           <div class="wrapperItem">
-                <img src="https://bafybeid23qxowjjha2ei5yza4dc4awmljj7n6onvb64lwx2w72zgz7knuu.ipfs.w3s.link/ipfs/bafybeid23qxowjjha2ei5yza4dc4awmljj7n6onvb64lwx2w72zgz7knuu/chor-nikal-thumb" class="wrapperItemImg" alt="">
-                <p class="wrapperItemName">Chor Nikal Ke Bhaga (2023)</p>
-                <p class="wrapperItemDesc">The perfect couple with a perfect plan, what could go wrong? Everything.</p>
-                <a href="movies/bolly/2023/chor-nikal.html" class="btn">Watch Now</a>
-            </div>
-
- 
-
-             <div class="wrapperItem">
-                <img src="https://bafybeialun5ot3kio6pjho6q5345euuaxhlqaydbjht7nvoyowaxnmffpq.ipfs.w3s.link/ipfs/bafybeialun5ot3kio6pjho6q5345euuaxhlqaydbjht7nvoyowaxnmffpq/shehzada.jpg" class="wrapperItemImg" alt="">
-                <p class="wrapperItemName">SHEHZADA-2023</p>
-                <p class="wrapperItemDesc">Bantu is hated and neglected by his father Valmiki ever since he was a toddler. Samara, his boss is the first person to show him affection and love until he discovers that the Jindals are his biological parents and not Valmiki.</p>
-                <a href="movies/bolly/2023/shehzada.html" class="btn">Watch Now</a>
-            </div>
-
-
-           
-
-
-
-            <div class="wrapperItem">
-                <img src="https://bafybeihe5bsux4okxwmgd3g7i43ixgm4qud7vua3h3oiaaoe6hxpyzdyii.ipfs.w3s.link/ipfs/bafybeihe5bsux4okxwmgd3g7i43ixgm4qud7vua3h3oiaaoe6hxpyzdyii/kabza.jpg" class="wrapperItemImg" alt="">
-                <p class="wrapperItemName">kabzaa</p>
-                <p class="wrapperItemDesc">Kumaresan, a police constable gets recruited for Operation Ghosthunt, which is implanted to capture Perumal Vaathiyar, who leads a separatist group People’s Army which are highly dedicated to fighting against the authorities for commiting atrocities against innocent village women in the name of police interrogations.</p>
-                <a href="movies/south/kabzaa.html" class="btn">Watch Now</a>
-            </div>
-
-
-
-
-            
-            <div class="wrapperItem">
-                <img src="https://bafybeifnbuw7cyqqm6zaxp5afbjs7s5mjp7dj64xlon3sd6ijiayiwkyym.ipfs.w3s.link/ipfs/bafybeifnbuw7cyqqm6zaxp5afbjs7s5mjp7dj64xlon3sd6ijiayiwkyym/congratulations!-Gujarati-thumb" class="wrapperItemImg" alt="">
-                <p class="wrapperItemName">Congratulations</p>
-                <p class="wrapperItemDesc">Aditya marries his college girlfriend Ragini who wants to have a kid but Aditya is not mentally ready to be a parent. After a miscarriage and...</p>
-                <a href="movies/guj/congratulations.html" class="btn">Watch Now</a>
-            </div>
-
-
-
-
-
-
-            <div class="wrapperItem">
-                <img src="https://bafybeidblq7oxgi3aq4u6g5ypltathyxvgqqlu7ovpfjvtuogmvijflq4m.ipfs.w3s.link/ipfs/bafybeidblq7oxgi3aq4u6g5ypltathyxvgqqlu7ovpfjvtuogmvijflq4m/Viduthalai-thumb" class="wrapperItemImg" alt="">
-                <p class="wrapperItemName">Viduthalai: Part I</p>
-                <p class="wrapperItemDesc">Kumaresan, a police constable gets recruited for Operation Ghosthunt, which is implanted to capture Perumal Vaathiyar, who leads a separatist group People’s Army which are highly dedicated to fighting against the authorities for commiting atrocities against innocent village women in the name of police interrogations.</p>
-                <a href="movies/south/Viduthalai.html" class="btn">Watch Now</a>
-            </div>
-
-
-
-
-
-            <div class="wrapperItem">
-                <img src="https://bafybeiaqq2nsyqad34no3cpn64ntd3zhrvutucky5v7o4lqikipnfsli44.ipfs.w3s.link/ipfs/bafybeiaqq2nsyqad34no3cpn64ntd3zhrvutucky5v7o4lqikipnfsli44/mrs-undercover-thumb" class="wrapperItemImg" alt="">
-                <p class="wrapperItemName">Mrs Undercover (2023)</p>
-                <p class="wrapperItemDesc">An undercover agent living in disguise as a middle-class housewife is assigned a mission after 10 years. How will she take down a serial killer targeting ambitious women with her rusty skills?</p>
-                <a href="movies/bolly/zee5/mrs-undercover.html" class="btn">Watch Now</a>
-            </div>
-           
-            
-            
             </div>
         </div>
     </section>
 
+
 <!-- action -------------------------------------------------------------section start -->
 
+
+<section class="newReleases">
+    <h1 class="heading"><a href ="single-movies.html" style="color:red;">South Indian Movies</a></h1>
+    <div class="movieListContainer">
+        <div class="arrows"><i class="fa-solid fa-chevron-right"></i></div>
+        <div class="movielistContainerWrapper">
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/ydrfRh9G/picchaikaran.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Pichaikkaran-2 2023</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/Pichaikkaran-2.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/DztqBVVN/o-saathi.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">O Saathiya 2023</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/o-saathi.html" class="btn">Watch Now</a>
+            </div>
+            
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/L8Wf8dss/veeragt.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Viraata Parvam 2023</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/veerta.html" class="btn">Watch Now</a>
+            </div>
+
+            <div class="wrapperItem">
+                <img src="https://i.ibb.co/mDb9Jwg/valt.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Waltair Veerayya (2023)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new/wal.html" class="btn">Watch Now</a>
+            </div>
+
+<div class="wrapperItem">
+        <img src="https://i.ibb.co/nB64M9w/ugram.jpg" class="wrapperItemImg" alt="">
+        <p class="wrapperItemName">Ugram (2023)</p>
+        <p class="wrapperItemDesc"></p>
+        <a href="new/ughram.html" class="btn">Watch Now</a>
+    </div>
+
+    
+<div class="wrapperItem">
+    <img src="https://bafybeif6lwnm5yudqewk6udujbdvpjub5ca2z5d3trm4dvep5vgj5gbpny.ipfs.w3s.link/ipfs/bafybeif6lwnm5yudqewk6udujbdvpjub5ca2z5d3trm4dvep5vgj5gbpny/Dasara-Movie-" class="wrapperItemImg" alt="">
+    <p class="wrapperItemName">Dasara (2023)</p>
+    <p class="wrapperItemDesc">In 1990s, Set in small village Veerlapally, Dharani, Vennela, and Suri are childhood friends. Dharani loves Vennela, but she has Suri in her mind. Knowing Suri’s interest in Vennela...</p>
+    <a href="movies/south/2023/dasara.html" class="btn">Watch Now</a>
+</div>
+
+        </div>
+    </div>
+</section>
+
+
     <section class="newReleases">
-        <h1 class="heading">Series</h1>
+        <h1 class="heading"><a href ="series-page1.html" style="color:red;">New Web-Series</a></h1>
         <div class="movieListContainer">
             <div class="arrows"><i class="fa-solid fa-chevron-right"></i></div>
             <div class="movielistContainerWrapper">
+
+                <div class="wrapperItem">
+                    <img src="https://i.postimg.cc/sgPsFyKP/one-piece2023.jpg" class="wrapperItemImg" alt="">
+                    <p class="wrapperItemName">One Piece (2023)</p>
+                    <p class="wrapperItemDesc"></p>
+                    <a href="series/one-piece.html" class="btn">Watch Now</a>
+                </div>
+               
+                    <div class="wrapperItem">
+                        <img src="https://i.postimg.cc/ydXWrSxF/scam-2003.jpg" class="wrapperItemImg" alt="">
+                        <p class="wrapperItemName">Scam 2003: The Telgi Story S01 2023</p>
+                        <p class="wrapperItemDesc">(All season)</p>
+                        <a href="series/scam2003.html" class="btn">Watch Now</a>
+                    </div>
+                    <div class="wrapperItem">
+                        <img src="https://i.postimg.cc/zB7JGRyz/Watch-Aakhri-Sach.jpg" class="wrapperItemImg" alt="">
+                        <p class="wrapperItemName">Aakhri Sach S01 2023 </p>
+                        <p class="wrapperItemDesc"></p>
+                        <a href="series/aakhri-sach.html" class="btn">Watch Now</a>
+                    </div>
+                    <div class="wrapperItem">
+                        <img src="https://i.postimg.cc/B6ZFsBrg/dear-child.jpg" class="wrapperItemImg" alt="">
+                        <p class="wrapperItemName">Dear Child</p>
+                        <p class="wrapperItemDesc"></p>
+                        <a href="new3/dear-child.html" class="btn">Watch Now</a>
+                    </div>
+                    <div class="wrapperItem">
+                        <img src="https://i.postimg.cc/xTptZcbh/burning-body.jpg" class="wrapperItemImg" alt="">
+                        <p class="wrapperItemName">Burning Body</p>
+                        <p class="wrapperItemDesc"></p>
+                        <a href="new3/burning-body.html" class="btn">Watch Now</a>
+                    </div>
+                    <div class="wrapperItem">
+                        <img src="https://i.postimg.cc/nhs0fp4z/i-am-groot.png" class="wrapperItemImg" alt="">
+                        <p class="wrapperItemName">I Am Groot</p>
+                        <p class="wrapperItemDesc"></p>
+                        <a href="new3/i-am-groot.html" class="btn">Watch Now</a>
+                    </div>
+                    <div class="wrapperItem">
+                        <img src="https://i.postimg.cc/jdSMvzCy/virgin-river.jpg" class="wrapperItemImg" alt="">
+                        <p class="wrapperItemName">Virgin River</p>
+                        <p class="wrapperItemDesc"></p>
+                        <a href="new3/virgin-river.html" class="btn">Watch Now</a>
+                    </div>
+                  
+                   
+                    <div class="wrapperItem">
+                        <img src="https://i.postimg.cc/zDdzmKmp/The-Wheel-of-Time.jpg" class="wrapperItemImg" alt="">
+                        <p class="wrapperItemName">The Wheel of Time</p>
+                        <p class="wrapperItemDesc"></p>
+                        <a href="series/wheel-of-time.html" class="btn">Watch Now</a>
+                    </div>
+                    
+                    <div class="wrapperItem">
+                        <img src="https://i.postimg.cc/bY5pKJwT/lakhanleela.jpg" class="wrapperItemImg" alt="">
+                        <p class="wrapperItemName">Lakhan Leela Bhargava</p>
+                        <p class="wrapperItemDesc"></p>
+                        <a href="new2/lakhan-leela-bhargav.html" class="btn">Watch Now</a>
+                    </div>
+                    
+                <div class="wrapperItem">
+                    <img src="https://i.postimg.cc/DZhKnnRC/talli.jpg" class="wrapperItemImg" alt="">
+                    <p class="wrapperItemName">Taali 2023</p>
+                    <p class="wrapperItemDesc"></p>
+                    <a href="new2/taali.html" class="btn">Watch Now</a>
+                </div>
+                
+                <div class="wrapperItem">
+                    <img src="https://i.ibb.co/Rc5rrwL/The-Jengaburu-Curse-768x432.jpg" class="wrapperItemImg" alt="">
+                    <p class="wrapperItemName">The Jengaburu Curse (2023)</p>
+                    <p class="wrapperItemDesc"></p>
+                    <a href="new/jengaburu.html" class="btn">Watch Now</a>
+                </div>
+
+
+                <div class="wrapperItem">
+                    <img src="https://i.ibb.co/znmKRLv/behind-your-touch.jpg" class="wrapperItemImg" alt="">
+                    <p class="wrapperItemName">Behind Your Touch S01 2023</p>
+                    <p class="wrapperItemDesc"></p>
+                    <a href="new/behind-your-touch.html" class="btn">Watch Now</a>
+                </div>
+                
+<div class="wrapperItem">
+            <img src="https://i.ibb.co/6HR9tvk/Half-CA-768x432.jpg" class="wrapperItemImg" alt="">
+            <p class="wrapperItemName">Half CA</p>
+            <p class="wrapperItemDesc"></p>
+            <a href="new/halfca.html" class="btn">Watch Now</a>
+        </div>
+
                 <div class="wrapperItem">
                     <img src="https://link.storjshare.io/s/jv3dues72lyo5o3hbgpo6qthawzq/demo-bucket/verrapann.jpg?wrap=0" class="wrapperItemImg" alt="">
                     <p class="wrapperItemName">The Hunt for Veerappan</p>
@@ -382,6 +467,14 @@
         <p class="wrapperItemDesc"></p>
         <a href="new/the-trial.html" class="btn">Watch Now</a>
     </div>
+
+    <div class="wrapperItem">
+        <img src="https://link.storjshare.io/s/jwh75l32y322bbm6lpsm5gxdhwta/demo-bucket/witcher%20series.jpeg?wrap=0" class="wrapperItemImg" alt="">
+        <p class="wrapperItemName">The Witcher (2019-2023)</p>
+        <p class="wrapperItemDesc"> Season 1-3</p>
+        <a href="new/the-witcher.html" class="btn">Watch Now</a>
+    </div>
+
     <div class="wrapperItem">
         <img src="https://link.storjshare.io/s/jv3dues72lyo5o3hbgpo6qthawzq/demo-bucket/secret-invasion-x-1024x576.jpg?wrap=0" class="wrapperItemImg" alt="">
         <p class="wrapperItemName">Secret Invasion (2023)</p>
@@ -407,6 +500,9 @@
         <p class="wrapperItemDesc">College Romance is a story of three BFF’s : Karan, Trippy and Naira ; who fall in love and their ridiculous romantic stories take off.</p>
         <a href="new/college.html" class="btn">Watch Now</a>
     </div>
+
+    
+    
 </section>
 <!-- action -------------------------------------------------------------section start -->
 
@@ -415,14 +511,97 @@
     <div class="movieListContainer">
         <div class="arrows"><i class="fa-solid fa-chevron-right"></i></div>
         <div class="movielistContainerWrapper">
-        
 
             <div class="wrapperItem">
-                <img src="https://bafybeiafmuz4ho3av6jrg6zfxakx2zqnuzrohrdocs2nvvxkdnmwewpgby.ipfs.w3s.link/ipfs/bafybeiafmuz4ho3av6jrg6zfxakx2zqnuzrohrdocs2nvvxkdnmwewpgby/barbie-poster-" class="wrapperItemImg" alt="">
-                <p class="wrapperItemName">Barbie (2023)</p>
-                <p class="wrapperItemDesc">Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.</p>
-                <a href="movies/holly/2023/barbie.html" class="btn">Watch Now</a>
+                <img src="https://i.postimg.cc/hvQszgnX/zom.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Zom 100 Bucket List of the Dead 2023</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new3/zom.html" class="btn">Watch Now</a>
             </div>
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/fLLBsmgj/sitting-in-bar-with-cake.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Sitting in Bars with Cake 2023</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new3/sitting-in-bars-with-cake.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/ZRdFpbfp/Renfield.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Renfield 2023</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new3/Renfield.html" class="btn">Watch Now</a>
+            </div>
+
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/fT3mgfNC/mermaid.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">The Little Mermaid 2023</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/the-little-mermaid.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/nLd4CFfV/squaredlove-everlasting.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Squared Love Everlasting 2023</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/squared-love.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/XN84Ljcz/are-you-there-god.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Are You There God? It’s Me, Margaret. (2023)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/are-you-there-god.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/GhLhn8mR/you-are-so-not-invited-to-my-bat-mitzvah.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">You Are So Not Invited to My Bat Mitzvah (2023)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/you-are-not-so-invited.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/qR4JrGMD/dayandahalf.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">A Day and a Half 2023</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/a-day-and-half.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/GmRqknpy/the-meg-statham.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">The Meg (All Parts)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/the-meg.html" class="btn">Watch Now</a>
+            </div>
+
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/Vk3xfLBY/Indiana-Jones-and-the-Dial-of-Destiny.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Indiana Jones and the Dial of Destiny 2023</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/indiana23.html" class="btn">Watch Now</a>
+            </div>
+
+            <div class="wrapperItem">
+                <img src="https://i.ibb.co/j6Y0Pwk/heart-of-stonr.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Heart of Stone 2023</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new/heart-of-stone.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/4xxb3bbW/The-Assassin.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">The Assassin 2023</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/the-assasin.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="https://link.storjshare.io/s/jwh75l32y322bbm6lpsm5gxdhwta/demo-bucket/Spider-Man-Across-the-Spider-Verse.jpg?wrap=0" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Spider-Man: Across the Spider-Verse (2023)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new/spiderman-across2023.html" class="btn">Watch Now</a>
+            </div>
+
+            <div class="wrapperItem">
+                <img src="https://link.storjshare.io/s/jwh75l32y322bbm6lpsm5gxdhwta/demo-bucket/no-hard-feelings-poster-jennifer-lawrence.jpg?wrap=0" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">No Hard Feelings (2023)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new/no-hard-feelings.html" class="btn">Watch Now</a>
+            </div>   
+            
+          
 
 
             <div class="wrapperItem">
@@ -509,16 +688,54 @@
 </div>
 </section>
 
-<!-- movie series ------------------------------------------------------------------------section start -->
 
-
+<!-- kdrana ----------------------------------------------------------------------section start -->
 <section class="newReleases">
-    <h1 class="heading">Movie Series</h1>
+    <h1 class="heading"><a href ="" style="color:red;">Korean</a></h1>
     <div class="movieListContainer">
         <div class="arrows"><i class="fa-solid fa-chevron-right"></i></div>
         <div class="movielistContainerWrapper">
 
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/mgsMgGRL/its-okay-to-not-be-okay.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Its Okay to Not Be Okay</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="series/its-okay-to-not-be-okay.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/sXc6jH3h/my-demon.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">My Demon</p>
+                <p class="wrapperItemDesc">A pitiless demon becomes powerless after getting entangled with an icy heiress, who may hold the key to his lost abilities — and his heart.</p>
+                <a href="series/my-demon.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/tJg9ZC6h/destinedwithyou.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Destined with You (2023)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/destined-with-you.html" class="btn">Watch Now</a>
+            </div>
+        </div>
+    </div>
+</section>
 
+
+<!-- movie series ------------------------------------------------------------------------section start -->
+
+
+
+<section class="newReleases">
+    <h1 class="heading"><a href ="movie-series.html" style="color:red;">Movie Series</a></h1>
+    <div class="movieListContainer">
+        <div class="arrows"><i class="fa-solid fa-chevron-right"></i></div>
+        <div class="movielistContainerWrapper">
+
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/vH7d2PvZ/john-Wick.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">John Wick (All parts)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/john-wick.html" class="btn">Watch Now</a>
+            </div>
+            
         <div class="wrapperItem">
             <img src="https://link.storjshare.io/s/jv3dues72lyo5o3hbgpo6qthawzq/demo-bucket/fast%20saga.jpg?wrap=0" class="wrapperItemImg" alt="">
             <p class="wrapperItemName">Fast and Furious (All Parts)</p>
@@ -573,14 +790,78 @@
             <a href="new/avengers.html" class="btn">Watch Now</a>
         </div>
 
+        
+
+        
         <div class="wrapperItem">
-            <img src="" class="wrapperItemImg" alt="">
-            <p class="wrapperItemName"></p>
+            <img src="https://i.ibb.co/r7TjYJP/zombieland-social.png" class="wrapperItemImg" alt="">
+            <p class="wrapperItemName">Zombieland</p>
             <p class="wrapperItemDesc"></p>
-            <a href="" class="btn">Watch Now</a>
+            <a href="new/zombieland.html" class="btn">Watch Now</a>
         </div>
 
+        <div class="wrapperItem">
+            <img src="https://i.ibb.co/5R0rFS8/percy.jpg" class="wrapperItemImg" alt="">
+            <p class="wrapperItemName">Percy Jackson</p>
+            <p class="wrapperItemDesc"></p>
+            <a href="new/percy-jackson.html" class="btn">Watch Now</a>
+        </div>
+        
+        <div class="wrapperItem">
+            <img src="https://i.ibb.co/zHhjtYd/Mission-Impossible.jpg" class="wrapperItemImg" alt="">
+            <p class="wrapperItemName">Mission Impossible (All parts)/p>
+            <p class="wrapperItemDesc"></p>
+            <a href="new/mission-impossible.html" class="btn">Watch Now</a>
+        </div>
 
+        <div class="wrapperItem">
+            <img src="https://i.ibb.co/SJ2846Q/twilight.jpg" class="wrapperItemImg" alt="">
+            <p class="wrapperItemName">Twilight</p>
+            <p class="wrapperItemDesc"></p>
+            <a href="new/twilight.html" class="btn">Watch Now</a>
+        </div>
+
+        
+        <div class="wrapperItem">
+            <img src="https://i.postimg.cc/sD2FQm4V/The-Maze-Runner.jpg" class="wrapperItemImg" alt="">
+            <p class="wrapperItemName">The Maze Runner</p>
+            <p class="wrapperItemDesc"></p>
+            <a href="new2/maze-runner.html" class="btn">Watch Now</a>
+        </div>
+        
+        <div class="wrapperItem">
+            <img src="https://i.postimg.cc/90VjppSB/pirates.jpg" class="wrapperItemImg" alt="">
+            <p class="wrapperItemName">Pirates of the Caribbean (All Parts)</p>
+            <p class="wrapperItemDesc">(Hindi - English)</p>
+            <a href="new2/pirates-ofcarabien.html" class="btn">Watch Now</a>
+        </div>
+
+        <div class="wrapperItem">
+            <img src="https://i.postimg.cc/sX4f9pyt/Final-Destination.jpg" class="wrapperItemImg" alt="">
+            <p class="wrapperItemName">Final Destination (All Parts)</p>
+            <p class="wrapperItemDesc"></p>
+            <a href="new2/final-destination.html" class="btn">Watch Now</a>
+        </div>
+
+        <div class="wrapperItem">
+            <img src="https://i.postimg.cc/hvCSNcXs/lordof-rings.jpg" class="wrapperItemImg" alt="">
+            <p class="wrapperItemName">Lord Of the Rings (All Parts)</p>
+            <p class="wrapperItemDesc"></p>
+            <a href="new2/lord-of-rings.html" class="btn">Watch Now</a>
+        </div>
+
+        <div class="wrapperItem">
+            <img src="https://i.postimg.cc/tTjCxr03/RINGS.jpg" class="wrapperItemImg" alt="">
+            <p class="wrapperItemName">The Rings (all Parts)</p>
+            <p class="wrapperItemDesc"></p>
+            <a href="new2/rings.html" class="btn">Watch Now</a>
+        </div>
+        <div class="wrapperItem">
+            <img src="" class="wrapperItemImg" alt="">
+            <p class="wrapperItemName">See our Movie Series list Now!</p>
+            <p class="wrapperItemDesc">Click the button Below.</p>
+            <a href="movie-series.html" class="btn">Movie Series List</a>
+        </div>
     </div>
 </div>
 </section>
@@ -589,12 +870,93 @@
 <!-- child ------------------------------------------------------------------------section start -->
 
 <section class="newReleases">
-    <h1 class="heading"><a href ="movies/genres/romance.html" style="color:red;">Romance</a></h1>
+    <h1 class="heading"><a href ="" style="color:red;">Gujarati</a></h1>
+    <div class="movieListContainer">
+        <div class="arrows"><i class="fa-solid fa-chevron-right"></i></div>
+        <div class="movielistContainerWrapper">
+
+        
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/hjPT8Qc4/3ekka.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">3 Ekka 2023</p>
+                <p class="wrapperItemDesc">Three friends stuck in financial crises, come up with an idiotic plan to transform a simple middle-class house into a secret gambling den. A series of mishaps inside and outside the gambling den keep piling up. Will they win or lose?</p>
+                <a href="new3/3ekka.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/VvD3Z0mQ/chello-divas.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Chello Divas (2015)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/chello-divas.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/RCd5Zyfs/Shubh-Yatra.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Shubh Yatra (2023)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/shubh-yatra.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/L57rm3hR/lakiro.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Lakiro 2023</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new/lakiro.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/RCDr14d8/paasport.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Passport </p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/passport.html" class="btn">Watch Now</a>
+            </div>
+
+            <div class="wrapperItem">
+                <img src="" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Nadi Dosh</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new3/nadi-dosh.html" class="btn">Watch Now</a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- child ------------------------------------------------------------------------section start -->
+
+
+<section class="newReleases">
+    <h1 class="heading"><a href ="romance.html" style="color:red;">Romance</a></h1>
     <div class="movieListContainer">
        <div class="arrows"><i class="fa-solid fa-chevron-right"></i></div>
         <div class="movielistContainerWrapper">
 
-            
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/bYQFxBWD/yourplaceor-mine.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Your Place or Mine (2023)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="romance/you-place-or-mine.html" class="btn">Watch Now</a>
+            </div> 
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/jdTnqmm6/happy-ending.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Happy Ending (2023)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="romance/happy-ending.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/hP0zXMRk/choose-love.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Choose Love (2023)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="romance/choose-love.html" class="btn">Watch Now</a>
+            </div>
+<div class="wrapperItem">
+                    <img src="https://i.ibb.co/HpyfCqR/through-my-window.jpg" class="wrapperItemImg" alt="">
+                    <p class="wrapperItemName">Through My Window: Across the Sea (2023)</p>
+                    <p class="wrapperItemDesc"></p>
+                    <a href="new/throug-my-window.html" class="btn">Watch Now</a>
+                </div>
+
+                <div class="wrapperItem">
+                    <img src="https://i.ibb.co/rfQ5CFc/yorname.png" class="wrapperItemImg" alt="">
+                    <p class="wrapperItemName">Your Name</p>
+                    <p class="wrapperItemDesc"></p>
+                    <a href="new/your-name.html" class="btn">Watch Now</a>
+                </div>
 
        <div class="wrapperItem">
                 <img src="
@@ -611,9 +973,32 @@ https://bafybeifqk3nupicl4vi5iifasyishmsyi46aga2k7hqb3rrhidmxwtcf7i.ipfs.w3s.lin
                 <a href="new/50-shades.html" class="btn">Watch Now</a>
             </div>
            
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/FRG99Skh/LAST-NIGHT-01.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Last Night (2011)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/last-night.html" class="btn">Watch Now</a>
+            </div>
 
             
-
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/tT6vmSgc/love-in-villa.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Love in the Villa (2022)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="romance/love-in-villa.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/Hs9RghtD/rayal-teratmenr.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">The Royal Treatment (2022)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="romance/the-royal-treatment.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">See our Romance Movies list Now!</p>
+                <p class="wrapperItemDesc">Click the button Below.</p>
+                <a href="romance.html" class="btn">Romance Movies List</a>
+            </div>
         </div>
     </div>
 </section>
@@ -621,7 +1006,7 @@ https://bafybeifqk3nupicl4vi5iifasyishmsyi46aga2k7hqb3rrhidmxwtcf7i.ipfs.w3s.lin
 <!-- family--=======================================------------------------========= -->
 
 <section class="newReleases">
-    <h1 class="heading">HORROR</h1>
+    <h1 class="heading"><a href ="horror-series.html" style="color:red;">HORROR</a></h1>
     <div class="movieListContainer">
         <div class="arrows"><i class="fa-solid fa-chevron-right"></i></div>
         <div class="movielistContainerWrapper">
@@ -638,7 +1023,26 @@ https://bafybeifqk3nupicl4vi5iifasyishmsyi46aga2k7hqb3rrhidmxwtcf7i.ipfs.w3s.lin
 
 
 
+            <div class="wrapperItem">
+                <img src="https://i.ibb.co/cT2wzdC/dawn-of-dead2004.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Dawn Of the dead - 2004</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new/dawn-of-dead.html" class="btn">Watch Now</a>
+            </div>
 
+            <div class="wrapperItem">
+                <img src="https://i.ibb.co/FVXH059/exorcist.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">The Exorcist 1973</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new/exorcist1990s.html" class="btn">Watch Now</a>
+            </div>
+    
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/sXnhVF86/the-nun.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">The Nun 2018</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/the-nun.html" class="btn">Watch Now</a>
+            </div>
 
 <div class="wrapperItem">
                 <img src="https://bafybeicq3u5r3p3poy6plrw2umcwmi2zv4d6gtfg2iynl4ncndcm5xws7q.ipfs.w3s.link/ipfs/bafybeicq3u5r3p3poy6plrw2umcwmi2zv4d6gtfg2iynl4ncndcm5xws7q/pope's" class="wrapperItemImg" alt="">
@@ -647,7 +1051,25 @@ https://bafybeifqk3nupicl4vi5iifasyishmsyi46aga2k7hqb3rrhidmxwtcf7i.ipfs.w3s.lin
                  <a href="movies/holly/2023/pope's-exorcist.html" class="btn">Watch Now</a>
             </div>
 
-
+            <div class="wrapperItem">
+                <img src="https://i.ibb.co/YTFHwbK/exo-of-god2021.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">The Exorcism of God (2021)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new/exorciam-of-god.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="https://i.ibb.co/H4842jh/candyman-2021.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Candyman 2021</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/candyman.html" class="btn">Watch Now</a>
+            </div>
+    
+            <div class="wrapperItem">
+                <img src="https://i.ibb.co/pPwN9qn/no-escape-room-netflix-review.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">No Escape Room 2018</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new/no-escape-room.html" class="btn">Watch Now</a>
+            </div>
 
  <div class="wrapperItem">
                 <img src="https://bafybeibfyh3czph2avlwhjs3ox7eniluuahvkn223tjbyattsxl6yjlrzi.ipfs.w3s.link/ipfs/bafybeibfyh3czph2avlwhjs3ox7eniluuahvkn223tjbyattsxl6yjlrzi/Sinister-" class="wrapperItemImg" alt="">
@@ -712,12 +1134,157 @@ https://bafybeifqk3nupicl4vi5iifasyishmsyi46aga2k7hqb3rrhidmxwtcf7i.ipfs.w3s.lin
                 <p class="wrapperItemDesc"></p>
                 <a href="new/happ-death-day.html" class="btn">Watch Now</a>
             </div>
-    
+            <div class="wrapperItem">
+                <img src="" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">See our Horror Series list Now!</p>
+                <p class="wrapperItemDesc">Click the button Below.</p>
+                <a href="horror-series.html" class="btn">Horror Series List</a>
+            </div>
 
     </div>
     </div>
 </section>
 
+<section class="newReleases">
+    <h1 class="heading"><a href ="series-page1.html" style="color:red;">Web Series</a></h1>
+    <div class="movieListContainer">
+        <div class="arrows"><i class="fa-solid fa-chevron-right"></i></div>
+        <div class="movielistContainerWrapper">
+
+            <div class="wrapperItem">
+                <img src="https://i.ibb.co/n6V8Cm1/13-reasons-why.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">13 Reasons Why</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new/13-reason-why.html" class="btn">Watch Now</a>
+            </div>
+        
+            <div class="wrapperItem">
+                <img src="https://i.ibb.co/9nJLT6V/got.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Game Of Thrones (all seasons)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new/got.html" class="btn">Watch Now</a>
+            </div>
+
+            <div class="wrapperItem">
+                <img src="https://i.ibb.co/dPFG9ky/house-of-dragon.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">House Of dragons 2023</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new/house-of-dragons.html" class="btn">Watch Now</a>
+            </div>
+
+            <div class="wrapperItem">
+                <img src="https://i.ibb.co/0yT76kx/vampire-diary.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">The Vampire Diaries - All seasons</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new/vampire-diary.html" class="btn">Watch Now</a>
+            </div>
+            <div class="wrapperItem">
+                <img src="https://i.ibb.co/zfwKdWG/stranger-things.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Stranger Things</p>
+                <p class="wrapperItemDesc">Season 1 - 4</p>
+                <a href="new2/strangerthings.html" class="btn">Watch Now</a>
+            </div>
+    
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/FRCgsMBy/lucifer.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Lucifer (All seasons)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/lucifer.html" class="btn">Watch Now</a>
+            </div>
+
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/d3bqv0Rz/the-walking-dead-poster47.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">The Walking Dead (all seasons)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/the-walking-dead.html" class="btn">Watch Now</a>
+            </div>
+
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/cJCf5shQ/euphoria.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Euphoria</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/euphoria.html" class="btn">Watch Now</a>
+            </div>
+
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/Pfy3cqz7/the-queens-gambit.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">The Queen's Gambit (2020)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/queens-gambit.html" class="btn">Watch Now</a>
+            </div>
+
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/3JyXBrLm/the-crown-900x600.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">The Crown (2016-2023)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/the-crown.html" class="btn">Watch Now</a>
+            </div>
+
+            <div class="wrapperItem">
+                <img src="https://i.postimg.cc/cC3QdXtT/wanda-vision.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">WandaVision</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new2/wanda-vision.html" class="btn">Watch Now</a>
+            </div>
+
+            <div class="wrapperItem">
+                <img src="" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">See our Web Series list Now!</p>
+                <p class="wrapperItemDesc">Click the button Below.</p>
+                <a href="series-page1.html" class="btn">Series List</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="newReleases">
+    <h1 class="heading"><a href ="" style="color:red;">Sitcoms</a></h1>
+    <div class="movieListContainer">
+       <div class="arrows"><i class="fa-solid fa-chevron-right"></i></div>
+        <div class="movielistContainerWrapper">
+
+            <div class="wrapperItem">
+                <img src="https://i.ibb.co/qgBCHP3/Friends-F-R-I-E-N-D-S-poster.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Friends (ALL SEASONS)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new/friends.html" class="btn">Watch Now</a>
+            </div>
+
+            <div class="wrapperItem">
+                <img src="https://i.ibb.co/F6S4bCS/big-banf.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">The Big Bang Theory (All sesons)</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new/big-bang.html" class="btn">Watch Now</a>
+            </div>
+
+            <div class="wrapperItem">
+                <img src="https://i.ibb.co/syNLfqp/the-office.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">The Office</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new/the-office.html" class="btn">Watch Now</a>
+            </div>
+
+            <div class="wrapperItem">
+                <img src="https://i.ibb.co/zVPKFVb/How-I-Met-Your-Mother-1.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">How I Met Your Mother</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new/how-i-met-your.html" class="btn">Watch Now</a>
+            </div>
+
+            <div class="wrapperItem">
+                <img src="https://i.ibb.co/JFQhwf3/young-sheldon.jpg" class="wrapperItemImg" alt="">
+                <p class="wrapperItemName">Young Sheldon</p>
+                <p class="wrapperItemDesc"></p>
+                <a href="new/young-sheldon.html" class="btn">Watch Now</a>
+            </div>
+
+        </div>
+    </div>
+</section>
 <!-- -----------------------------------------------------------------copyright -->
 <div class="copyright container">
     <a href="#" class="logo"><i class="fas fa-infinity"></i>Chad-Cinema.</a>
